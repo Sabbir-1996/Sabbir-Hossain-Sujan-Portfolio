@@ -1,0 +1,410 @@
+/*Desktop View*/
+@media (min-width:768px){
+
+}
+
+/*Mobile  View*/
+@media (min-width:320px) and (max-width:440px){
+    header .nav ul {
+        width: 18%;
+        height: 25%;
+    }
+    .checkbtn{
+        display: block !important;
+        margin-top: 25px;
+        font-size: 35px;
+      }
+      
+    
+      header .nav ul{
+        position: fixed;
+        width: 20%;
+        height: 60%;
+        background: #4d65f1;
+        top: 78px;
+        left: -200%;
+        transition: all .1s;    
+      }
+      header .nav ul li{
+        line-height: 30px; 
+        clear: both; 
+        margin-top: 15px;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      } 
+
+      header .nav ul li a{
+        font-size: 20px; 
+        text-align: center;
+    }
+    .marq{
+        width: 160%;
+        
+    }
+    
+    
+    .sec1 {
+        width: 233%;
+    }  
+    .half2 img{
+        margin-bottom: 66px;
+    }  
+
+    .sec2 {
+        width: 233%;
+    }
+    .half4 .p4>p{
+        max-width: 85%;
+    } 
+    .half4 h4{
+        max-width:85%;
+        text-align: center;
+        margin-left:60px;
+        
+    }
+
+    .sec3 {
+        width: 233%;
+    } 
+    .service1{
+        overflow: hidden;
+        width: 100%;
+        display: grid;
+     }
+     .ser1 p, .ser2 p, .ser3 p{
+        width: 560px;
+        
+     }
+     .ser2 i {
+         font-size: 30px;
+     }
+
+    .sec4 {
+        width: 233%;
+    }
+    .sec5 {
+        width: 233%;
+    }
+    .pmain {
+        max-width: 70%;
+    }
+    
+    .footer {
+        width: 233%;
+        height:auto;
+    } 
+    .f1st{
+        width: 58%;
+    }
+    .f2nd{
+        width: 43%;
+    }
+    .footer div {
+        margin-top: -6px;
+        height: auto;
+    }
+    .copy p{
+        width: 133%;
+        margin-left: 260px;
+    }
+}
+
+/*Tablet 768 px*/
+@media (min-width:441px) and (max-width:768px){
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left:25px ;
+        padding: 10px;
+    }
+    .checkbtn{
+        display: block !important;
+        margin-top: 25px;
+        font-size: 35px;
+      }
+      
+    
+      header .nav ul{
+        position: fixed;
+        width: 14%;
+        height: 197vh;
+        background: #4d65f1;
+        top: 95px;
+        left: -200%;
+        transition: all .1s;    
+      }
+      header .nav ul li{
+        line-height: 30px; 
+        clear: both; 
+        margin-top: 15px;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      } 
+
+      header .nav ul li a{
+        font-size: 20px; 
+        text-align: center;
+    }
+
+.marq{
+    width: 120%;
+    height: auto;
+    margin: auto;
+    margin-left: 145px;
+    margin-top: 125px;
+    background-color:#f9f9ff ;
+}
+
+.marq h4{
+    font-weight: 600;
+    color: rgba(4, 12, 236, 0.756);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .sec1 {
+        width:160%;
+        height: 700px;
+        background-color:#f9f9ff ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -150px;
+    }
+    .half1 h4:nth-child(2) {
+        font-size: 22px;
+        
+    }
+    .half1 h4:nth-child(1){
+       
+        font-size: 19px;
+        width: 120%;
+    }
+
+  .half1{
+      margin:auto;
+      padding:0;
+      width:43%;
+     }
+  
+  .half1 h3 {
+      font-size: 15px;
+        
+  }
+  .half1 h1 {
+    font-size: 30px;
+    
+  }
+ 
+  .half2{
+    width: 25%;
+  }
+  .half2 img {
+    margin-left: 90px;
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -130px;
+  }
+
+.sec2 {
+    display: block;
+    width: 160%;
+    height: 230vh;
+    top: -60px;
+    position: relative;
+}
+.sec2 .img2 img {
+    position: relative;
+    right: 120px;
+}
+.sec2 div{
+    width: 100%;
+}
+
+.text2{
+    position: relative;
+    left: 15px;
+    text-align: center !important;
+}
+.text2 h3{
+    font-size: 12px;
+    color: rgba(0,0,0,0.8);
+  
+}
+.text2 h1{
+    font-size: 30px;
+    color: rgba(0,0,0, 0.9);
+}
+.text2 p{
+    font-size: 15px;
+    color: rgba(0,0,0, 0.9);
+    margin-left:  50px !important;
+}
+.sec3{
+    width: 160%;
+    height: auto;
+    position: relative;
+    top: -180px;
+}
+   
+
+.firsttext > h1{
+    font-size: 30px;
+    color: rgba(0,0,0, 0.9);
+  
+}
+.firsttext p {
+width: 80%;
+}
+
+.ser1 div, .ser2 div  {
+    clear: left;
+    position: relative;
+    width: 100%;  
+    height: auto;     
+}
+
+.sec4 div{
+    clear: left;
+}
+.sec4{
+    width: 160%;
+    height: auto;
+    position: relative;
+    top: -180px;
+}
+
+.sec5{
+    width: 160%;
+    height:auto;
+    padding-top:60px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.sec5 .text4 h1{
+    font-size: 35px;
+}
+.sec5 .text4 p{
+    width: 80%;
+    margin: auto;
+}
+
+.sec5 .card{
+    display: block;
+    width: 160%;
+    height: 100vh;
+    position: relative;
+    left: 90px;
+}
+.card1 {
+    margin-top: 50px;
+}
+.footer{
+    width: 160%;
+    height: 125vh;
+    position: relative;
+ }
+ .footer .foot{
+    display: block;  
+    position: relative; 
+    top: 100px;
+}
+.foot1 .abp{
+    width:80%;
+} 
+.copy p {
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -46px;
+    margin-left: 435px;
+}
+}
+
+/*Laptop view 1024 px*/
+
+@media (min-width:769px) and (max-width:1024px){
+    header .nav {
+        margin-right: -15px;
+        padding-top: 2px;
+    }
+    .marq{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-left: 145px;
+        margin-top: 125px;
+        
+    }
+    
+    .marq h4{
+        font-weight: 600;
+        color: rgba(4, 12, 236, 0.756);
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .sec1 {
+        width: 108%;
+        overflow: hidden;
+    }
+    
+    .sec2 {
+        width: 108%;
+        overflow: hidden;
+    }
+   
+    .half4 {
+        margin-top: -120px;
+        overflow: hidden;
+    }
+    .sec3{
+        width:108%;
+    }
+          
+    
+    .service1{
+       overflow: hidden;
+       width: 98%;
+    }
+    .service1 div{
+        padding: 0;
+        justify-content: center;  
+        text-align: center;
+
+    }
+    .ser2 i {
+        font-size: 30px;
+    }
+    .sec4{
+        width: 108%;
+    }
+    .sec5{
+        width: 108%;
+    }
+    .pmain{
+        max-width: 50%;
+    }
+    .footer {
+        width: 108%;
+    }
+    .copy p{
+        margin-left: 360px;
+    }
+
+}
+    
+    
+
+
+
+
+
+
